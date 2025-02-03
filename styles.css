@@ -1,5 +1,5 @@
 .overallPage{
-    /* border: 1px solid black; */
+    
 }
 
 .navBar {
@@ -7,6 +7,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: lightblue;
+    margin: 10px;
+
+    border: 1px solid black;
 }
 
 .navBarContent {
@@ -33,6 +36,8 @@
     flex-direction: column;
 
     border: 1px solid black;
+
+    margin: 10px;
 }
 
 #featPhoto{
@@ -46,8 +51,10 @@
     align-items: center;
     flex-direction: column;
 
+    border: 1px solid black;
+
     margin: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .prevProjPhotos{
@@ -65,17 +72,53 @@
 
 .aboutMe{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    margin: 10px;
+
+    border: 1px solid black;
+}
+
+.skills{
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skillsContent{
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
-.skills{
-    margin: 20px;
-}
-.autobio{
-    margin: 20px;
+.skillsList{
+    margin: 0px;
 }
 
+.autobio{
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.autobioContent{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+p{
+    margin: 0px;
+}
 
 
