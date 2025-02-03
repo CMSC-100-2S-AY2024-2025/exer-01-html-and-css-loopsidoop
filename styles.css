@@ -1,12 +1,20 @@
+
 .navBar{
     display: flex;
     justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    
 }
 
 .navBarContent{
+    border: 1px solid black;
     background-color: lightblue;
     width: 800px;
     height: 100px;
+    margin: 10px;
+    padding: 10px;
+    
 
     display: flex;
     justify-content: space-around;
@@ -17,3 +25,55 @@
     width: 100px;
     height: 100px;
 }
+
+.featPhotoContents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#featPhoto{
+    width: 800px;
+    height: 800px;
+}
+
+.prevProj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.prevProjPhotos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.prevProjPhotosContent{
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.skills{
+    margin: 20px;
+}
+.autobio{
+    margin: 20px;
+}
+
+
+
