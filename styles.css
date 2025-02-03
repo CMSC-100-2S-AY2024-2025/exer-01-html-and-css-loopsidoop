@@ -1,0 +1,19 @@
+.navBar{
+    display: flex;
+    justify-content: center;
+}
+
+.navBarContent{
+    background-color: lightblue;
+    width: 800px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
