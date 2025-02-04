@@ -1,7 +1,6 @@
 ## About Me
 - **Name:** Lawrence Joel J. Macatangay
 - **Degree Program:** BS Computer Science
-- **Degree Program:** 2023-08883
 
 ## Github Page Website Link
 Visit my website [here](https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-loopsidoop/)!
