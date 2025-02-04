@@ -132,8 +132,7 @@
 
 .prevProjPhotosContent{
     margin: 10px;
-    height: 300px;
-    width: 300px;
+    flex-wrap: wrap;
 }
 
 .aboutMe{
@@ -193,5 +192,6 @@
 
 
 p{
+    font-family: 'Alliance';
     margin: 0px;
 }
