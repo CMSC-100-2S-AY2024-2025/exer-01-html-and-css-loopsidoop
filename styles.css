@@ -142,6 +142,7 @@ html {
     border-top-right-radius: 40px;
 
     margin: 10px;
+    margin-top: 60px;
     /* padding: 10px; */
 }
 
@@ -195,6 +196,7 @@ html {
 
 .skills{
     margin: 20px;
+    margin-top: 60px;
 
     display: flex;
     justify-content: center;
@@ -202,18 +204,19 @@ html {
     flex-direction: column;
 }
 
-.skillsContent{
+.techSkills{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
-.skillsList{
-    margin: 0px;
+.techSkillsPic{
+    margin: 10px;
+    width: auto;
+    height: 60px; 
+    object-fit: contain; 
 }
-
-
 
 .footer{
     display: flex;
