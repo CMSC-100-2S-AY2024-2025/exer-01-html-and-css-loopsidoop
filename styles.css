@@ -1,3 +1,4 @@
+/* define my custom fonts */
 @font-face {
     font-family: 'Helserif';
     src: url('fonts/Helserif-Light.ttf') format('truetype');
@@ -8,23 +9,26 @@
     src: url('fonts/AllianceNo1-Light.ttf') format('truetype');
 }
 
+/* adjust the scroll position of the website*/
 html {
     scroll-padding-top: 80px; 
 }
 
+/* overall page */
 .overallPage{
     padding-bottom: 60px;
     background-color: #F0F8FF;
     background: linear-gradient(to bottom, #CAE9F5, #F0F8FF);
 }
 
+/* makes sure no outside border */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-
+/* navigation bar design */
 #navBar {
     display: flex;
     justify-content: space-between;
@@ -60,8 +64,6 @@ html {
     color: #92140c ;
 }
 
-
-
 .navBarContent a::after {
     content: "";
     position: absolute;
@@ -82,10 +84,6 @@ html {
 }
 
 #logo{
-    /* width: 30px;
-    height: 30px;
-    object-fit: cover */
-
     margin: 5px;
     margin-left: 10px;
     width: auto;
@@ -93,10 +91,12 @@ html {
     object-fit: contain; 
 }
 
+/* whole body design */
 .bodyContent{
     padding-top: 100px; 
 }
 
+/* featured photo and autobiography */
 #featPhotoContents{
     display: flex;
     justify-content: space-around;
@@ -113,6 +113,7 @@ html {
     flex-direction: column;
     margin-left: 100px;
 }
+/* the helloo ^__^ */
 .featPhotoTexts h1{
     margin: 0px;
     font-family: 'Helserif';
@@ -122,13 +123,13 @@ html {
     text-align: center;
 }
 
+/* the text about me */
 .featPhotoTexts p{
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-family: 'Alliance';
     font-size: 20px;;
-    /* margin-right: 100px; */
     text-align: center;
 }
 
@@ -139,6 +140,7 @@ html {
     object-fit: cover;
 }
 
+/* projects design */
 .prevProj{
     display: flex;
     justify-content: center;
@@ -150,7 +152,6 @@ html {
 
     margin: 10px;
     margin-top: 60px;
-    /* padding: 10px; */
 }
 
 .bodyTitles{
@@ -172,8 +173,6 @@ html {
     margin-right: 300px;
 }
 
-
-
 .projPicRight, .projPicLeft{
     display: flex;
     flex-wrap: wrap;
@@ -192,15 +191,7 @@ html {
     margin-right: 50px;
 }
 
-.aboutMe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 10px;
-
-}
-
+/* skills design */
 .skills{
     margin: 20px;
     margin-top: 60px;
@@ -225,6 +216,7 @@ html {
     object-fit: contain; 
 }
 
+/* footer design */
 .footer{
     display: flex;
     align-items: center;
@@ -290,6 +282,7 @@ html {
     object-fit: contain; 
 }
 
+/* page rights design */
 .pageRights{
     display: flex;
     justify-content: center;
@@ -300,6 +293,7 @@ html {
     font-family: 'helserif';
 }
 
+/* specific p tag margin */
 p{
     margin: 0px;
 }
